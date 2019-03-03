@@ -9,6 +9,7 @@ console.log(escola.substring(1))//Mostrar a partir do indice 1
 console.log(escola.substring(0, 3))// Percorre do indie 0 ao 3 poŕem não mostra o indice 3
 
 console.log('Escola '.concat(escola).concat("!")) // Concatenação de String
+console.log('Escola ' + escola + '!') // Outra forma de fazer concatenação de String
 console.log(escola.replace(3,'E'))//Subistituir uma parte da String, pode ser usando com regeX
 
 console.log("Jeferson,Jaqueline,Perola".split(','))// Gerando um Array com o .split, informando como separador a Vigurla(,)
