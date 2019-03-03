@@ -24,3 +24,8 @@ console.log(!!null)
 console.log(!!NaN)
 console.log(!!undefined)
 console.log(!!(isAtivos = false))
+
+let nome = ''
+console.log(nome || 'Desconhecido') // Nome não preenchido
+nome ='SteelSeries'
+console.log(nome || 'Desconhecido') // Nome Preenchido
