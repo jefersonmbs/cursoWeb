@@ -8,3 +8,4 @@ console.log(typeof qualquer)
 
 //Js é Fracamente Tipada
 //Desvantagens , mais dificil de encontrar BUG's
+//Vantagem Mais flexivél
