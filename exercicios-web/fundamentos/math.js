@@ -1,7 +1,7 @@
 const raio = 5.6
 const area = Math.PI * Math.pow(raio, 2) //Math.pow = levado a 2 potencia
 
-function raizQadrada ( r ){
+function raizQadrada ( r ){ //Calculo Basico Raiz Quadrada
 
     let raiz = Math.sqrt( r )
 
