@@ -12,3 +12,6 @@ console.log(valores.length)
 valores.push(false, null , 'teste')
 console.log(valores)
 console.log(valores.length)
+
+console.log(valores.pop()) // Deletar ultimo valor do array
+delete valores[0] //deletar o indice 0 do array
