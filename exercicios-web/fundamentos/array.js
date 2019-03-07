@@ -9,4 +9,6 @@ valores[4] = 10
 console.log(valores[4])
 console.log(valores.length)
 
-valores.push()
+valores.push(false, null , 'teste')
+console.log(valores)
+console.log(valores.length)
