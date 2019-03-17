@@ -21,3 +21,26 @@ console.log(d)
 console.log(c)
 
 
+let valor  // Declarada, mas sem ser iniciada
+console.log(valor)
+
+valor = null //inicia,mas ausencia de valor
+console.log(valor)
+// console.log(valor.toString()) // Erro! Ao acessar algo nullo
+
+const produto = {}
+console.log(produto.preco) //Preço não esta devinido no objeto produto
+console.log(produto)
+
+produto.preco = 3.50
+console.log(produto)
+
+produto.preco = undefined // Evitar atribur undefined
+console.log(!!produto.preco)
+console.log(produto)
+
+produto.preco = null
+console.log(!!produto.preco)
+console.log(produto)
+
+
