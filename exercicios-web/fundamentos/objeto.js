@@ -9,7 +9,15 @@ console.log(prod1)
 //Criando Objeto e declarando a chave valor dentro do objeto
 const prod2 = {
     nome: 'Camisa Polo',
-    preco: 70.90
+    preco: 70.90,
+    obj:{
+        blabla : 1,
+        obj: {
+            blabla: 2
+        }
+    }
 }
 
 console.log(prod2)
+
+//Declaração de Objeto dentro de um Objeto
