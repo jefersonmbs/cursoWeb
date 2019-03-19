@@ -20,3 +20,6 @@ const subtracao = (a,b) => a - b
 console.log(subtracao(4,1))
 console.log(subtracao(4,10))
 
+const imptimir2 = a => console.log(a);
+imptimir2('Legal!!!');
+
