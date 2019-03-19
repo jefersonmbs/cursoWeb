@@ -18,3 +18,5 @@ console.log(soma(4,5))
 const subtracao = (a,b) => a - b
 
 console.log(subtracao(4,1))
+console.log(subtracao(4,10))
+
