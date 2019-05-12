@@ -9,7 +9,7 @@ function exec() {
 console.log(saudacao)
 console.log(exec())
 
-//Objetos sçao grupos aninhados de pares nome/valor
+//Objetos sao grupos aninhados de pares nome/valor
 const cliente = {
     nome: 'Pedro',
     idade: '24',
