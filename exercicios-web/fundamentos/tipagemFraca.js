@@ -13,6 +13,6 @@ console.log(typeof qualquer)
 
 // Evitar nomes genéricos e siglas
 //Exemplos de declarações
-let valor = '' //Que valor?
+let valor = '' // Que valor?
 let numero = 1 //Que numero ?
 let pqp = false // Produto Quimico Perigoso
