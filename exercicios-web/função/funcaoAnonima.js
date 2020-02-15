@@ -2,7 +2,7 @@ DEBUG = (mensagem) => console.log(mensagem);
 
 const somar = function (x , y) {
     return  x + y;
-}
+};
 
 const subtrair = (x , y) => x - y;
 
