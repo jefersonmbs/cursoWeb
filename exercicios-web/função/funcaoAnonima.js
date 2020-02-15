@@ -15,3 +15,7 @@ imprimirResultado(9,2 , multiplicar);
 imprimirResultado(9,2,subtrair);
 
 imprimirResultado(9,2);
+
+imprimirResultado(10,2, function ( x , y) {
+    return x / y;
+});
