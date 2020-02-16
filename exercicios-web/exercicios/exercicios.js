@@ -6,7 +6,7 @@ const operacao = function (a ,b) {
     DEBUG('Subtração = ' + (a - b));
     DEBUG('multiplicação = ' + (a * b));
     DEBUG('divisão = ' + (a / b));
-}
+};
 operacao(2,10);
 
 /*
