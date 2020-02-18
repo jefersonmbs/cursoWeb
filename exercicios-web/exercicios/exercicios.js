@@ -110,8 +110,8 @@ const calcularrogresso = function ( historico ) {
 
     let jogoPior = 1;
     let records = 0;
-    let maiorPontuacao = [0];
-    let menorPontuacao = [0];
+    let maiorPontuacao = historico[0];
+    let menorPontuacao = historico[0];
 
     for (let i = 1; i < historico.length; i++) {
         if(historico[i] > maiorPontuacao) {
